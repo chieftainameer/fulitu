@@ -73,7 +73,8 @@ p {
     margin: 0px; }
 @media (max-width: 767px) {
     p {
-        font-size: 16px; } }
+        font-size: 16px; }
+}
 .top-nav a{
     color: whitesmoke;
     font-size: 1.2em;
@@ -82,12 +83,24 @@ p {
     border-bottom: 2px solid #EB3656;
     transition: border-bottom-color 200ms ease-in-out;
 }
+
 .top-nav:hover a{
     color: #EB3656;
+}
+#mobNavbar ul{
+    margin-left: auto;
 }
 .book-table-btn{
     background-color: #EB3656;
     border: none;
     padding: 0.7em;
     border-radius: 1.3em;
+}
+.header-section{
+    background-image: url("../../images/hero.webp");
+    min-height: 650px;
+    background-attachment: fixed;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -38,8 +38,10 @@
         <link rel="stylesheet" href="{{asset('assets/css/custom.css')}}">
     </head>
     <body class="antialiased">
-    <x-navbar />
-    <x-header />
+    <div class="header-section">
+        <x-navbar />
+    </div>
+{{--    <x-header />--}}
 
     <!--====== jquery js ======-->
     <script src="{{ asset('assets/js/vendor/modernizr-3.6.0.min.js') }}"></script>

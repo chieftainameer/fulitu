@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg main-navbar">
     <a href="#" class="navbar-brand" >
         <img src="{{asset('assets/images/res-logo.png')}}" alt="fulitu logo" height="112" width="112" />
     </a>
@@ -9,19 +9,34 @@
     <div class="collapse navbar-collapse" id="mobNavbar">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item px-3 py-2  top-nav">
-                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">
+                    <i class="lni lni-home px-1"></i>
+                    Home
+                </a>
             </li>
             <li class="nav-item px-3 py-2 top-nav">
-                <a href="#" class="nav-link">Menu</a>
+                <a href="#" class="nav-link">
+                    <i class="lni lni-text-align-right px-1"></i>
+                    Menu
+                </a>
             </li>
             <li class="nav-item px-3 py-2 top-nav">
-                <a href="#" class="nav-link">Events</a>
+                <a href="#" class="nav-link">
+                    <i class="lni lni-calendar px-1"></i>
+                    Events
+                </a>
             </li>
             <li class="nav-item px-3 py-2 top-nav">
-                <a href="#" class="nav-link">Gallery</a>
+                <a href="#" class="nav-link">
+                    <i class="lni lni-gallery px-1"></i>
+                    Gallery
+                </a>
             </li>
             <li class="nav-item px-3 py-2 top-nav">
-                <a href="#" class="nav-link">Contact</a>
+                <a href="#" class="nav-link">
+                    <i class="lni lni-phone"></i>
+                    Contact
+                </a>
             </li>
         </ul>
     </div>
