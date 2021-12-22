@@ -177,3 +177,20 @@ ul.menu-side-list{
     border-radius: 1.5em;
     cursor: pointer;
 }
+.menu-item-pic{
+    border-radius: 15px;
+    transition: all 0.2s ease-in;
+}
+.menu-item-pic:hover
+{
+    transform: scale(1.05);
+}
+.menu-item-name{
+    color:#210011 ;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 1.2em;
+}
+.menu-item-price{
+    color:#EB3656;
+    font-weight: bold;
+}

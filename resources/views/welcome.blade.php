@@ -73,18 +73,42 @@
                     </ul>
                 </div>
                 <div class="col-lg-8 col-sm-12">
-                    <h3 id="entrantes" class="tab-content" style="font-family: 'Playfair Display', sans-serif">ENTRANTES</h3>
-                    <h3 id="sopas" class="tab-content d-none" style="font-family: 'Playfair Display', sans-serif">SOPAS</h3>
-                    <h3 id="fideos" class="tab-content d-none" style="font-family: 'Playfair Display', sans-serif">ARROZ & TALLARINES & FIDEOS</h3>
-                    <h3 id="huevos" class="tab-content d-none" style="font-family: 'Playfair Display', sans-serif">HUEVOS & VERDURAS</h3>
-                    <h3 id="cerdo" class="tab-content d-none" style="font-family: 'Playfair Display', sans-serif">CERDO</h3>
-                    <h3 id="pescado" class="tab-content d-none" style="font-family: 'Playfair Display', sans-serif">PESCADOS</h3>
-                    <h3 id="mariscos" class="tab-content d-none" style="font-family: 'Playfair Display', sans-serif">MARISCOS</h3>
-                    <h3 id="ternera" class="tab-content d-none" style="font-family: 'Playfair Display', sans-serif">TERNERA</h3>
-                    <h3 id="pollo" class="tab-content d-none" style="font-family: 'Playfair Display', sans-serif">POLLO</h3>
-                    <h3 id="pato" class="tab-content d-none" style="font-family: 'Playfair Display', sans-serif">PATO</h3>
-                    <h3 id="plato-esp" class="tab-content d-none" style="font-family: 'Playfair Display', sans-serif">PLATO ESPECIALES</h3>
-                    <h3 id="plato-plancha" class="tab-content d-none" style="font-family: 'Playfair Display', sans-serif">PLATO A LA PLANCHA</h3>
+                    <div id="entrantes" class="tab-content">
+                        @include('partials.menu._entrantes')
+                    </div>
+                    <div id="sopas" class="tab-content d-none">
+                        @include('partials.menu._sopas')
+                    </div>
+                    <div id="fideos" class="tab-content d-none">
+                        @include('partials.menu._fideos')
+                    </div>
+                    <div id="huevos" class="tab-content d-none">
+                        @include('partials.menu._huevos')
+                    </div>
+                    <div id="cerdo" class="tab-content d-none">
+
+                    </div>
+                    <div id="pescado" class="tab-content d-none">
+
+                    </div>
+                    <div id="mariscos" class="tab-content d-none">
+
+                    </div>
+                    <div id="ternera" class="tab-content d-none">
+
+                    </div>
+                    <div id="pollo" class="tab-content d-none">
+
+                    </div>
+                    <div id="pato" class="tab-content d-none">
+
+                    </div>
+                    <div id="plato-esp" class="tab-content d-none">
+
+                    </div>
+                    <div id="plato-plancha" class="tab-content d-none">
+
+                    </div>
                 </div>
             </div>
         </div>
