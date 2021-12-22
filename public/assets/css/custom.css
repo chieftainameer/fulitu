@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700|Hind:400,500,600,700|Quattrocento:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
 body {
     font-family: 'Hind', sans-serif;
     font-weight: normal;
@@ -95,6 +96,11 @@ p {
     border: none;
     padding: 0.7em;
     border-radius: 1.3em;
+    padding:10px 3em;
+}
+.book-table-btn:hover{
+    color: floralwhite;
+    background-color: orange;
 }
 .header-section{
     background-image: url("../../images/hero.webp");
@@ -103,4 +109,71 @@ p {
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.header-text-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-text{
+    width: 30em;
+    text-align: center;
+    margin-top: 3em;
+}
+.enjoy{
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+.enjoy, .header-title,.header-desc,.header-btn{
+    color: floralwhite;
+}
+.header-title{
+    font-family: "Playfair Display",sans-serif;
+    font-size: 4.5em;
+}
+.header-btn{
+    background-color: #EB3656;
+    border-radius: 1.3em;
+    border: 0;
+    padding: 10px 3em;
+}
+.header-btn:hover{
+    color: floralwhite;
+    background: orange;
+}
+.home-menu{
+    background-color: #FEE2B3;
+    padding-top: 7em;
+}
+.selection-p{
+    text-transform: uppercase;
+}
+.foods{
+    color: #EB3656;
+}
+.popular-foods{
+    color: #210011;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 2em;
+}
+ul.menu-side-list{
+    width: 85%;
+}
+.side-menu-item{
+    color: #210011;
+    font-size: 1.2em;
+    padding: 1em 2em;
+}
+.side-menu-item:hover{
+    background-color: floralwhite;
+    padding: 1em 2em;
+    border-radius: 1.5em;
+    cursor: pointer;
+}
+.active-menu{
+    background-color: floralwhite;
+    padding: 1em 2em;
+    border-radius: 1.5em;
+    cursor: pointer;
 }

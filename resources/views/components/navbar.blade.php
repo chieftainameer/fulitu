@@ -15,7 +15,7 @@
                 </a>
             </li>
             <li class="nav-item px-3 py-2 top-nav">
-                <a href="#" class="nav-link">
+                <a href="#menu-side-list" class="nav-link">
                     <i class="lni lni-text-align-right px-1"></i>
                     Menu
                 </a>
