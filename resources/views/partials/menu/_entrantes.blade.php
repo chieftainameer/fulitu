@@ -7,17 +7,17 @@
     <div class="col-6 mt-4">
         <img class="menu-item-pic" src="{{asset('images/breakfast/second.jfif')}}" alt="menu item foto" />
         <div class="row">
-            <div class="col-10">
+            <div class="col-lg-10 col-sm-12">
                 <p class="menu-item-name pt-3 pb-1">Ensalada con gambas</p>
             </div>
-            <div class="col-2">
-                <p class="menu-item-price pt-3 pb-1">$5,20</p>
+            <div class="col-lg-2 col-sm-12">
+                <p class="menu-item-price pt-lg-3 pb-1">$5,20</p>
             </div>
         </div>
         <div>
             <img src="{{asset('images/alergens/huevos.png')}}" height="20" width="20"title="huevos" />
             <img src="{{asset('images/alergens/pescado.png')}}" height="20" width="20" title="pescado" />
-            <img src="{{asset('images/alergens/sulfitos.png')}}" height="20" width="20" title="Dioxido de azufre y sulfitos" />
+            <img src="{{asset('images/alergens/sulfitos.png')}}" height="20" width="20" title="Dioxid" />
         </div>
 
     </div>

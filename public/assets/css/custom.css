@@ -4,8 +4,9 @@ body {
     font-family: 'Hind', sans-serif;
     font-weight: normal;
     font-style: normal;
-    color: #646464; }
-
+    color: #646464;
+    overflow-x: hidden;
+}
 * {
     margin: 0;
     padding: 0;
@@ -94,7 +95,6 @@ p {
 .book-table-btn{
     background-color: #EB3656;
     border: none;
-    padding: 0.7em;
     border-radius: 1.3em;
     padding:10px 3em;
 }
@@ -105,6 +105,7 @@ p {
 .header-section{
     background-image: url("../../images/hero.webp");
     min-height: 650px;
+    width: 100%;
     background-attachment: fixed;
     background-position: center ;
     background-repeat: no-repeat;
@@ -350,11 +351,7 @@ ul.menu-side-list2{
 
 
 @media (min-width: 250px) {
-    body{
-        padding: 0;
-        margin: 0;
-        width: 100%;
-    }
+
 .fulitu-logo{
     height: 80px;
     width: 100px;
@@ -363,16 +360,460 @@ ul.menu-side-list2{
         display: none;
     }
     .header-title{
-        font-size: 2em;
+        font-size: 3em;
+    }
+    .header-text{
+        width: 25em;;
+    }
+    .selection-p{
+        font-size: 0.8em;
+    }
+    .popular-foods{
+        font-size: 1.2em;
+    }
+    ul.menu-side-list{
+        width: 100%;
+    }
+    .side-menu-item{
+        color: #210011;
+        font-size: 1em;
+        padding: 1em 2em;
+    }
+    .menu-item-name{
+        font-size: 1em;
+    }
+    .choose-dessert{
+        font-size: .8em;
+    }
+    .popular-dessert{
+        font-size: 1.3em;
+    }
+    .dessert-name{
+        font-size: 1.2em;
+    }
+    .dessert-item{
+        margin-top: 1em;
+    }
+    .testimonials-section{
+        font-size: 0.8em;
+    }
+    .satis-customers{
+        font-size: 1.3em;
+    }
+    .user-review-pic{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .user-info{
+        margin-left: 50%;
+        transform: translateX(-40%);
+    }
+    .testimonial-opacity{
+        min-height: 600px;
+    }
+    .user-testimonial-col{
+        width: 90%;
+    }
+    .gallery-p{
+        font-size: 0.8em;
+    }
+    .gallery-h3{
+        font-size: 1.2em;
+    }
+    .gallery-desc{
+        font-size: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .gallery-image{
+        height: 100px;
+        width: 200px;
+    }
+    .book-table-p{
+        font-size: 0.8em;
+    }
+    .book-table-h3{
+        font-size: 1.2em;
+    }
+    .book-table-desc{
+        font-size: 1em;
+    }
+    .book-table-wrapper{
+        width: 100%;
+    }
+    .book-table-button{
+        padding: 0.8em 1.5em;
+        font-size: .8em;
+    }
+    .reviewer-prof{
+        font-size: .8em;
     }
 }
 
  /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-
+    .fulitu-logo{
+        height: 100px;
+        width: 120px;
+    }
+    .book-table-btn{
+        display: none;
+    }
+    .header-title{
+        font-size: 3.5em;
+    }
+    .header-text{
+        width: 40em;;
+    }
+    .selection-p{
+        font-size: 1em;
+    }
+    .popular-foods{
+        font-size: 1.5em;
+    }
+    ul.menu-side-list{
+        width: 100%;
+    }
+    .side-menu-item{
+        color: #210011;
+        font-size: 1.1em;
+        padding: 1em 2em;
+    }
+    .menu-item-name{
+        font-size: 1.1em;
+    }
+    .choose-dessert{
+        font-size: 1em;
+    }
+    .popular-dessert{
+        font-size: 1.5em;
+    }
+    .dessert-name{
+        font-size: 1.2em;
+    }
+    .dessert-item{
+        margin-top: 1em;
+    }
+    .testimonials-section{
+        font-size: 1em;
+    }
+    .satis-customers{
+        font-size: 1.5em;
+    }
+    .user-review-pic{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .reviewer-prof{
+        font-size: 1.1em;
+    }
+    .user-info{
+        margin-left: 50%;
+        transform: translateX(-30%);
+    }
+    .testimonial-opacity{
+        min-height: 600px;
+    }
+    .user-testimonial-col{
+        width: 90%;
+    }
+    .gallery-p{
+        font-size: 1em;
+    }
+    .gallery-h3{
+        font-size: 1.5em;
+    }
+    .gallery-desc{
+        font-size: 1.2em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .gallery-image{
+        height: 200px;
+        width: 300px;
+    }
+    .book-table-p{
+        font-size: 1em;
+    }
+    .book-table-h3{
+        font-size: 1.5em;
+    }
+    .book-table-desc{
+        font-size: 1.1em;
+    }
+    .book-table-wrapper{
+        width: 100%;
+    }
+    .book-table-button{
+        padding: 0.9em 1.7em;
+        font-size: .8em;
+    }
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+    .top-nav a{
+        color: whitesmoke;
+        font-size: 1.2em;
+    }
+    .top-nav:hover{
+        border-bottom: 2px solid #EB3656;
+        transition: border-bottom-color 200ms ease-in-out;
+    }
 
+    .top-nav:hover a{
+        color: #EB3656;
+    }
+    #mobNavbar ul{
+        margin-left: auto;
+    }
+    .book-table-btn{
+        background-color: #EB3656;
+        border: none;
+        border-radius: 1.3em;
+        padding:10px 3em;
+    }
+    .book-table-btn:hover{
+        color: floralwhite;
+        background-color: orange;
+    }
+    .header-section{
+        background-image: url("../../images/hero.webp");
+        min-height: 650px;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .header-text-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-text{
+        width: 50em;
+        text-align: center;
+        margin-top: 3em;
+    }
+    .enjoy{
+        text-transform: uppercase;
+        color: whitesmoke;
+    }
+    .enjoy, .header-title,.header-desc,.header-btn{
+        color: floralwhite;
+    }
+    .header-title{
+        font-family: "Playfair Display",sans-serif;
+        font-size: 4.5em;
+    }
+    .header-btn{
+        background-color: #EB3656;
+        border-radius: 1.3em;
+        border: 0;
+        padding: 10px 3em;
+    }
+    .header-btn:hover{
+        color: floralwhite;
+        background: orange;
+    }
+    .home-menu{
+        background-color: #FEE2B3;
+        padding-top: 5em;
+        padding-bottom: 2em;
+    }
+    .selection-p{
+        text-transform: uppercase;
+    }
+    .foods{
+        color: #EB3656;
+    }
+    .popular-foods{
+        color: #210011;
+        font-family: "Playfair Display", sans-serif;
+        font-size: 2em;
+    }
+    ul.menu-side-list{
+        width: 85%;
+    }
+    .side-menu-item{
+        color: #210011;
+        font-size: 1.2em;
+        padding: 1em 2em;
+    }
+    .side-menu-item:hover{
+        background-color: floralwhite;
+        padding: 1em 2em;
+        border-radius: 1.5em;
+        cursor: pointer;
+    }
+    .active-menu{
+        background-color: floralwhite;
+        padding: 1em 2em;
+        border-radius: 1.5em;
+        cursor: pointer;
+    }
+    .menu-item-pic{
+        border-radius: 15px;
+        transition: all 0.2s ease-in;
+    }
+    .menu-item-pic:hover
+    {
+        transform: scale(1.05);
+    }
+    .menu-item-name{
+        color:#210011 ;
+        font-family: "Playfair Display", sans-serif;
+        font-size: 1.2em;
+    }
+    .menu-item-price{
+        color:#EB3656;
+        font-weight: bold;
+    }
+    ul.menu-side-list2{
+        width: 85%;
+    }
+    .side-menu-item2{
+        color: #210011;
+        font-size: 1.2em;
+        padding: 1em 2em;
+    }
+    .side-menu-item2:hover{
+        background-color: floralwhite;
+        padding: 1em 2em;
+        border-radius: 1.5em;
+        cursor: pointer;
+    }
+    .choose-dessert{
+        text-transform: uppercase;
+    }
+    .popular-dessert{
+        font-family: "Playfair Display", sans-serif;
+        color: #210011;
+    }
+    .dessert{
+        color:#EB3656 ;
+    }
+    .dessert-item{
+        border: 1px solid #210011;
+        border-radius: .5em;
+        transition: all .2s ease-in-out;
+    }
+    .dessert-item:hover{
+        background-color: floralwhite;
+        border: 1px solid floralwhite;
+    }
+    .dessert-name{
+        font-family: "Playfair Display", sans-serif;
+        font-size: 1.3em;
+        color: #210011;
+    }
+    .dessert-price{
+        font-family: "Playfair Display", sans-serif;
+        font-size: 1.4em;
+        color: #EB3656;
+    }
+    .testimonial-section{
+        background-image: url("../../images/hero2.webp");
+        background-attachment: fixed;
+        min-height: 700px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .testimonial-opacity{
+        background-color: #F5C780;
+        min-height: 500px;
+        opacity: .82;
+        z-index: 111;
+    }
+    .testimonials-section{
+        text-transform: uppercase;
+    }
+    .satis-customers{
+        font-family: "Playfair Display", sans-serif;
+        color: #210011;
+    }
+    .customers{
+        color: #EB3656;
+    }
+    .user-testimonial-col{
+        width: 50%;
+    }
+    .user-review-pic{
+        border-radius: 50%;
+    }
+    .reviewer-name{
+        color: #EB3656;
+    }
+    .reviewer-prof{
+        color: #210011;
+    }
+    .review-content{
+        text-align: center;
+        color: #210011;
+    }
+    .gallery-section{
+        background-color: #FEE2B3;
+    }
+    .gallery-p{
+        text-transform: uppercase;
+    }
+    .gallery-image{
+        border: 3px solid floralwhite;
+    }
+    .gallery-h3{
+        font-family: "Playfair Display", sans-serif;
+        color: #210011;
+        font-size: 1.8em;
+    }
+    .gallery-span{
+        color: #EB3656;
+    }
+    .gallery-desc{
+        color: #210011;
+    }
+    .testimonial-section{
+        min-height: 400px;
+    }
+    .testimonial-opacity2{
+        background-color: #F5C780;
+        min-height: 350px;
+        opacity: .82;
+        z-index: 111;
+    }
+    .book-table-wrapper{
+        width: 50%;
+        text-align: center;
+    }
+    .book-table-p{
+        text-transform: uppercase;
+    }
+    .book-table-h3{
+        font-family: "Playfair Display", sans-serif;
+        color: #210011;
+        font-size: 1.9em;
+    }
+    .book-table-desc{
+        color: #210011;
+        font-size: 1.1em;
+    }
+    .book-table-button{
+        text-transform: uppercase;
+        color: floralwhite;
+        background-color: #EB3656;
+        padding: 1em 2em;
+        border: 2px solid floralwhite;
+        border-radius: 1.8em;
+    }
+    .book-table-button:hover{
+        background-color:orange ;
+    }
+    .footer-section{
+        background-color: #645F56;
+        color: white;
+    }
+    .user-review-pic{
+        margin-left: 15vw;
+    }
 }

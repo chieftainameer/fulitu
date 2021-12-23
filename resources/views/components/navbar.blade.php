@@ -1,13 +1,13 @@
 <nav class="navbar navbar-expand-lg main-navbar">
     <a href="#" class="navbar-brand" >
-        <img class="fulitu-logo" src="{{asset('assets/images/fulitu-logo.png')}}" alt="fulitu logo" height="112" width="150" />
+        <img class="fulitu-logo" src="{{asset('assets/images/min-res-logo.png')}}" alt="fulitu logo" height="112" width="150" />
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="mobNavbar">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav">
             <li class="nav-item px-3 py-2  top-nav">
                 <a href="#" class="nav-link">
                     <i class="lni lni-home px-1"></i>

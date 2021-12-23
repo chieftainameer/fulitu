@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="initial-scale=1.0, width=device-width">
 
         <!--====== Title ======-->
         <title>RESTAURANTE FULITU</title>
@@ -32,24 +32,22 @@
         <link rel="stylesheet" href="{{asset('assets/css/slick.css')}}">
 
         <!--====== Default css ======-->
-        <link rel="stylesheet" href="{{asset('assets/css/default.css')}}">
+        <!-- <link rel="stylesheet" href="{{asset('assets/css/default.css')}}"> -->
 
         <!--====== Style css ======-->
         <link rel="stylesheet" href="{{asset('assets/css/custom.css')}}">
     </head>
-    <body class="antialiased">
-    <div style="background-color: black">
+    <body>
     <div class="header-section">
         <x-navbar />
         <div class="header-text-section">
             <div class="header-text">
                 <p class="enjoy">enjoy your healthy delicios meal</p>
                 <h1 class="header-title py-2">Treat Yourself</h1>
-                <p class="pt-2 pb-2 header-desc">Another free template by Colorlib. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                <button class="header-btn btn btn-warning">Explore Now</button>
+                <p class="pt-2 pb-2 mx-sm-4 header-desc">Another free template by Colorlib. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <button class="header-btn btn btn-warning mt-sm-3">Explore Now</button>
             </div>
         </div>
-    </div>
     </div> <!-- HEADER SECTION ENDS HERE -->
     <div class="home-menu">
         <div class="container">
@@ -58,12 +56,26 @@
                     <p class="selection-p">select your meal</p>
                     <h3 class="popular-foods pt-2 pb-3">Popular <span class="foods">Foods</span></h3>
                     <ul class="menu-side-list" id="menu-side-list">
-                        <li onclick="showTab(event,'entrantes')" class="mb-3 side-menu-item active-menu"><img class="mr-4" src="{{asset('images/menu/breakfst.webp')}}" alt="breakfast menu" height="30" width="30" />Entrantes</li>
-                        <li onclick="showTab(event,'sopas')" class="mb-3 side-menu-item"><img class="mr-4" src="{{asset('images/menu/lunch.webp')}}" alt="lunch menu" height="30" width="30" />Sopas</li>
-                        <li onclick="showTab(event,'fideos')" class="mb-3 side-menu-item"><img class="mr-4" src="{{asset('images/menu/dinner.webp')}}" alt="dinner menu" height="30" width="30" />Arroz & Fideos</li>
-                        <li onclick="showTab(event,'huevos')" class="mb-3 side-menu-item"><img class="mr-4" src="{{asset('images/menu/drinks.webp')}}" alt="drinks menu" height="30" width="30" />Huevos & Verduras</li>
-                        <li onclick="showTab(event,'cerdo')" class="mb-3 side-menu-item"><img class="mr-4" src="{{asset('images/menu/breakfst.webp')}}" alt="drinks menu" height="30" width="30" />Cerdo</li>
-                        <li onclick="showTab(event,'pescado')" class="mb-3 side-menu-item"><img class="mr-4" src="{{asset('images/menu/lunch.webp')}}" alt="drinks menu" height="30" width="30" />Pescados</li>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-6">
+                                <li onclick="showTab(event,'entrantes')" class="mb-3 side-menu-item active-menu"><img class="mr-4" src="{{asset('images/menu/breakfst.webp')}}" alt="breakfast menu" height="30" width="30" />Entrantes</li>
+                            </div>
+                            <div class="col-lg-12 col-md-6">
+                                <li onclick="showTab(event,'sopas')" class="mb-3 side-menu-item"><img class="mr-4" src="{{asset('images/menu/lunch.webp')}}" alt="lunch menu" height="30" width="30" />Sopas</li>
+                            </div>
+                            <div class="col-lg-12 col-md-6">
+                                <li onclick="showTab(event,'fideos')" class="mb-3 side-menu-item"><img class="mr-4" src="{{asset('images/menu/dinner.webp')}}" alt="dinner menu" height="30" width="30" />Arroz & Fideos</li>
+                            </div>
+                            <div class="col-lg-12 col-md-6">
+                                <li onclick="showTab(event,'huevos')" class="mb-3 side-menu-item"><img class="mr-4" src="{{asset('images/menu/drinks.webp')}}" alt="drinks menu" height="30" width="30" />Huevos & Verduras</li>
+                            </div>
+                            <div class="col-lg-12 col-md-6">
+                                <li onclick="showTab(event,'cerdo')" class="mb-3 side-menu-item"><img class="mr-4" src="{{asset('images/menu/breakfst.webp')}}" alt="drinks menu" height="30" width="30" />Cerdo</li>
+                            </div>
+                            <div class="col-lg-12 col-md-6">
+                                <li onclick="showTab(event,'pescado')" class="mb-3 side-menu-item"><img class="mr-4" src="{{asset('images/menu/lunch.webp')}}" alt="drinks menu" height="30" width="30" />Pescados</li>
+                            </div>
+                        </div>
                     </ul>
                 </div>
                 <div class="col-lg-8 col-sm-12">
@@ -93,13 +105,14 @@
     <!-- HOME MENU TWO STARTS HERE -->
     <div class="home-menu">
         <div class="container">
-                {{--   dessert section begins         --}}
-            <div class="row py-5">
+            <!-- dessert section begins  -->
+            <div class="row pb-5">
                 <div class="col-12 d-flex flex-column justify-content-center align-items-center">
                     <p class="choose-dessert">Choose Desserts</p>
                     <h3 class="popular-dessert">Popular <span class="dessert">Desserts</span></h3>
                 </div>
-            </div> <!-- dessert header -->
+            </div>
+            <!-- dessert header -->
 
             <div class="row"> <!-- dessert items -->
                 <div class="col-lg-4 col-sm-6 mt-sm-3">
@@ -143,16 +156,16 @@
                 </div>
             </div>
 
-                {{--     dessert section ends here       --}}
+           <!--  dessert section ends here -->
 
         </div>
     </div> <!-- HOME MENU TWO ENDS HERE -->
 
-        {{--    testimonials section begins    --}}
+    <!-- testimonials section begins -->
     <section class="testimonial-section">
         <div class="testimonial-opacity">
             <div class="container">
-                {{--       TESTINOMIAL AREA STARTS            --}}
+                <!-- TESTINOMIAL AREA STARTS -->
                 <section class="mb-3">
                     <div class="row py-5">
                         <div class="col-12 d-flex flex-column justify-content-center align-items-center">
@@ -162,13 +175,15 @@
                     </div>
                     <div class="row">
                         <div class=" col-12 d-flex flex-column justify-content-center align-items-center">
-                            <div class="row mb-3">
-                                <div class="col-lg-5 col-sm-12">
+                            <div class="row mb-3" style="width: 50%">
+                                <div class="col-lg-4 col-sm-12">
                                     <img class="user-review-pic mr-lg-2" src="{{asset('images/testimonials/first.webp')}}" alt="user pic"  height="100" width="100" />
                                 </div>
-                                <div class="col-lg-7 col-sm-12">
-                                    <h4 class="reviewer-name pt-4 pb-2">John Doe</h4>
-                                    <p class="reviewer-prof">Chef at Labrynth</p>
+                                <div class="col-lg-8 col-sm-12">
+                                    <div class="user-info">
+                                        <h4 class="reviewer-name pt-4 pb-2">John Doe</h4>
+                                        <p class="reviewer-prof">Chef at Labrynth</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="row">
@@ -182,9 +197,9 @@
                     </div>
                 </section>
             </div>
-                    {{--       TESTINOMIAL AREA ENDS      --}}
+            <!-- TESTINOMIAL AREA ENDS -->
         </div>
-        {{--      GALLERY AREA START     --}}
+        <!-- GALLERY AREA START -->
         <section class="gallery-section p-5">
             <div class="container">
                 <div class="row">
@@ -214,9 +229,9 @@
                 </div>
             </div>
         </section>
-        {{--     GALLERY AREA ENDS      --}}
+        <!-- GALLERY AREA ENDS -->
 
-        {{--   BOOK TABLE AREA STARTS    --}}
+        <!-- BOOK TABLE AREA STARTS -->
         <section class="book-table-section">
             <div class="testimonial-opacity2 p-5">
                 <div class="container">
@@ -235,13 +250,12 @@
                 </div>
             </div>
         </section>
-        {{--   BOOK TABLE AREA ENDS    --}}
+        <! --BOOK TABLE AREA ENDS -->
 
-        {{--   FOOTER AREA STARTS     --}}
+        <!-- FOOTER AREA STARTS -->
         <section class="footer-section">
 
         </section>
-        {{--   FOOTER AREA ENDS      --}}
     </section>
 
 
