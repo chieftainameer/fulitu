@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg main-navbar">
     <a href="#" class="navbar-brand" >
-        <img src="{{asset('assets/images/res-logo.png')}}" alt="fulitu logo" height="112" width="112" />
+        <img class="fulitu-logo" src="{{asset('assets/images/fulitu-logo.png')}}" alt="fulitu logo" height="112" width="150" />
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -41,6 +41,6 @@
         </ul>
     </div>
 
-    <button class="btn btn-primary mr-auto book-table-btn">Book A Table</button>
+    <button class="btn btn-primary book-table-btn">Book A Table</button>
 </nav>
 

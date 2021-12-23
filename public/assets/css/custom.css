@@ -144,7 +144,8 @@ p {
 }
 .home-menu{
     background-color: #FEE2B3;
-    padding-top: 7em;
+    padding-top: 5em;
+    padding-bottom: 2em;
 }
 .selection-p{
     text-transform: uppercase;
@@ -193,4 +194,185 @@ ul.menu-side-list{
 .menu-item-price{
     color:#EB3656;
     font-weight: bold;
+}
+ul.menu-side-list2{
+    width: 85%;
+}
+.side-menu-item2{
+    color: #210011;
+    font-size: 1.2em;
+    padding: 1em 2em;
+}
+.side-menu-item2:hover{
+    background-color: floralwhite;
+    padding: 1em 2em;
+    border-radius: 1.5em;
+    cursor: pointer;
+}
+.choose-dessert{
+    text-transform: uppercase;
+}
+.popular-dessert{
+    font-family: "Playfair Display", sans-serif;
+    color: #210011;
+}
+.dessert{
+    color:#EB3656 ;
+}
+.dessert-item{
+    border: 1px solid #210011;
+    border-radius: .5em;
+    transition: all .2s ease-in-out;
+}
+.dessert-item:hover{
+    background-color: floralwhite;
+    border: 1px solid floralwhite;
+}
+.dessert-name{
+    font-family: "Playfair Display", sans-serif;
+    font-size: 1.3em;
+    color: #210011;
+}
+.dessert-price{
+    font-family: "Playfair Display", sans-serif;
+    font-size: 1.4em;
+    color: #EB3656;
+}
+.testimonial-section{
+    background-image: url("../../images/hero2.webp");
+    background-attachment: fixed;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonial-opacity{
+    background-color: #F5C780;
+    min-height: 500px;
+    opacity: .82;
+    z-index: 111;
+}
+.testimonials-section{
+    text-transform: uppercase;
+}
+.satis-customers{
+    font-family: "Playfair Display", sans-serif;
+    color: #210011;
+}
+.customers{
+    color: #EB3656;
+}
+.user-testimonial-col{
+    width: 50%;
+}
+.user-review-pic{
+    border-radius: 50%;
+}
+.reviewer-name{
+    color: #EB3656;
+}
+.reviewer-prof{
+    color: #210011;
+}
+.review-content{
+    text-align: center;
+    color: #210011;
+}
+.gallery-section{
+    background-color: #FEE2B3;
+}
+.gallery-p{
+    text-transform: uppercase;
+}
+.gallery-image{
+    border: 3px solid floralwhite;
+}
+.gallery-h3{
+    font-family: "Playfair Display", sans-serif;
+    color: #210011;
+    font-size: 1.8em;
+}
+.gallery-span{
+    color: #EB3656;
+}
+.gallery-desc{
+    color: #210011;
+}
+.testimonial-section{
+    min-height: 400px;
+}
+.testimonial-opacity2{
+    background-color: #F5C780;
+    min-height: 350px;
+    opacity: .82;
+    z-index: 111;
+}
+.book-table-wrapper{
+    width: 50%;
+    text-align: center;
+}
+.book-table-p{
+    text-transform: uppercase;
+}
+.book-table-h3{
+    font-family: "Playfair Display", sans-serif;
+    color: #210011;
+    font-size: 1.9em;
+}
+.book-table-desc{
+    color: #210011;
+    font-size: 1.1em;
+}
+.book-table-button{
+    text-transform: uppercase;
+    color: floralwhite;
+    background-color: #EB3656;
+    padding: 1em 2em;
+    border: 2px solid floralwhite;
+    border-radius: 1.8em;
+}
+.book-table-button:hover{
+    background-color:orange ;
+}
+.footer-section{
+    background-color: #645F56;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 250px) {
+    body{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+.fulitu-logo{
+    height: 80px;
+    width: 100px;
+}
+    .book-table-btn{
+        display: none;
+    }
+    .header-title{
+        font-size: 2em;
+    }
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
 }

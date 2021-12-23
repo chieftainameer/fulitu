@@ -50,7 +50,7 @@
             </div>
         </div>
     </div>
-    </div>
+    </div> <!-- HEADER SECTION ENDS HERE -->
     <div class="home-menu">
         <div class="container">
             <div class="row">
@@ -64,12 +64,6 @@
                         <li onclick="showTab(event,'huevos')" class="mb-3 side-menu-item"><img class="mr-4" src="{{asset('images/menu/drinks.webp')}}" alt="drinks menu" height="30" width="30" />Huevos & Verduras</li>
                         <li onclick="showTab(event,'cerdo')" class="mb-3 side-menu-item"><img class="mr-4" src="{{asset('images/menu/breakfst.webp')}}" alt="drinks menu" height="30" width="30" />Cerdo</li>
                         <li onclick="showTab(event,'pescado')" class="mb-3 side-menu-item"><img class="mr-4" src="{{asset('images/menu/lunch.webp')}}" alt="drinks menu" height="30" width="30" />Pescados</li>
-                        <li onclick="showTab(event,'mariscos')" class="mb-3 side-menu-item"><img class="mr-4" src="{{asset('images/menu/dinner.webp')}}" alt="drinks menu" height="30" width="30" />Mariscos</li>
-                        <li onclick="showTab(event,'ternera')" class="mb-3 side-menu-item"><img class="mr-4" src="{{asset('images/menu/drinks.webp')}}" alt="drinks menu" height="30" width="30" />Ternera</li>
-                        <li onclick="showTab(event,'pollo')" class="mb-3 side-menu-item"><img class="mr-4" src="{{asset('images/menu/breakfst.webp')}}" alt="drinks menu" height="30" width="30" />Pollo</li>
-                        <li onclick="showTab(event,'pato')" class="mb-3 side-menu-item"><img class="mr-4" src="{{asset('images/menu/lunch.webp')}}" alt="drinks menu" height="30" width="30" />Pato</li>
-                        <li onclick="showTab(event,'plato-esp')" class="mb-3 side-menu-item"><img class="mr-4" src="{{asset('images/menu/dinner.webp')}}" alt="drinks menu" height="30" width="30" />Platos Especiales</li>
-                        <li onclick="showTab(event,'plato-plancha')" class="mb-3 side-menu-item"><img class="mr-4" src="{{asset('images/menu/drinks.webp')}}" alt="drinks menu" height="30" width="30" />Platos a la plancha</li>
                     </ul>
                 </div>
                 <div class="col-lg-8 col-sm-12">
@@ -91,28 +85,178 @@
                     <div id="pescado" class="tab-content d-none">
 
                     </div>
-                    <div id="mariscos" class="tab-content d-none">
-
-                    </div>
-                    <div id="ternera" class="tab-content d-none">
-
-                    </div>
-                    <div id="pollo" class="tab-content d-none">
-
-                    </div>
-                    <div id="pato" class="tab-content d-none">
-
-                    </div>
-                    <div id="plato-esp" class="tab-content d-none">
-
-                    </div>
-                    <div id="plato-plancha" class="tab-content d-none">
-
-                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> <!-- HOME MENU ONE ENDS HERE -->
+
+    <!-- HOME MENU TWO STARTS HERE -->
+    <div class="home-menu">
+        <div class="container">
+                {{--   dessert section begins         --}}
+            <div class="row py-5">
+                <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+                    <p class="choose-dessert">Choose Desserts</p>
+                    <h3 class="popular-dessert">Popular <span class="dessert">Desserts</span></h3>
+                </div>
+            </div> <!-- dessert header -->
+
+            <div class="row"> <!-- dessert items -->
+                <div class="col-lg-4 col-sm-6 mt-sm-3">
+                    <div class="dessert-item p-5">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="{{asset('images/desserts/first.webp')}}" alt="dessert pic" height="88" width="94" />
+                            </div>
+                            <div class="col-7">
+                                <p class="dessert-name">Cherry Muffin</p>
+                                <p class="dessert-price">$20</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-sm-3">
+                    <div class="dessert-item p-5">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="{{asset('images/desserts/second.webp')}}" alt="dessert pic" height="88" width="94" />
+                            </div>
+                            <div class="col-7">
+                                <p class="dessert-name">Rose Muffin</p>
+                                <p class="dessert-price">$20</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-sm-3">
+                    <div class="dessert-item p-5">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="{{asset('images/desserts/third.webp')}}" alt="dessert pic" height="88" width="94" />
+                            </div>
+                            <div class="col-7">
+                                <p class="dessert-name">Choco Cake</p>
+                                <p class="dessert-price">$20</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                {{--     dessert section ends here       --}}
+
+        </div>
+    </div> <!-- HOME MENU TWO ENDS HERE -->
+
+        {{--    testimonials section begins    --}}
+    <section class="testimonial-section">
+        <div class="testimonial-opacity">
+            <div class="container">
+                {{--       TESTINOMIAL AREA STARTS            --}}
+                <section class="mb-3">
+                    <div class="row py-5">
+                        <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+                            <p class="testimonials-section">testimonials</p>
+                            <h3 class="satis-customers">Satisfied <span class="customers">Customers</span></h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class=" col-12 d-flex flex-column justify-content-center align-items-center">
+                            <div class="row mb-3">
+                                <div class="col-lg-5 col-sm-12">
+                                    <img class="user-review-pic mr-lg-2" src="{{asset('images/testimonials/first.webp')}}" alt="user pic"  height="100" width="100" />
+                                </div>
+                                <div class="col-lg-7 col-sm-12">
+                                    <h4 class="reviewer-name pt-4 pb-2">John Doe</h4>
+                                    <p class="reviewer-prof">Chef at Labrynth</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 d-flex flex-row justify-content-center align-items-center">
+                                    <p class="review-content user-testimonial-col">
+                                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+                    {{--       TESTINOMIAL AREA ENDS      --}}
+        </div>
+        {{--      GALLERY AREA START     --}}
+        <section class="gallery-section p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="gallery-p">galleries</p>
+                        <h3 class="py-3 gallery-h3">Photo <span class="gallery-span">Gallery</span></h3>
+                        <p class="gallery-desc">
+                            Another free template by Colorlib. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="row">
+                            <div class="col-6 mt-1">
+                                <img class="gallery-image" src="{{asset('images/breakfast/first.jfif')}}" alt="gallery pic" />
+                            </div>
+                            <div class="col-6 mt-1">
+                                <img class="gallery-image" src="{{asset('images/events/first.webp')}}" alt="gallery pic" height="143" width="255" />
+                            </div>
+                            <div class="col-6 mt-1">
+                                <img class="gallery-image" src="{{asset('images/events/second.webp')}}" alt="gallery pic" height="143" width="255" />
+                            </div>
+                            <div class="col-6 mt-1">
+                                <img class="gallery-image" src="{{asset('images/breakfast/second.jfif')}}" alt="gallery pic" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{--     GALLERY AREA ENDS      --}}
+
+        {{--   BOOK TABLE AREA STARTS    --}}
+        <section class="book-table-section">
+            <div class="testimonial-opacity2 p-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+                            <div class="book-table-wrapper d-flex flex-column justify-content-center align-items-center">
+                                <p class="book-table-p">book a table</p>
+                                <h3 class="book-table-h3 py-3">Book A Table Now</h3>
+                                <p class="book-table-desc pb-3">
+                                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                </p>
+                                <button class="book-table-button">book a table</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{--   BOOK TABLE AREA ENDS    --}}
+
+        {{--   FOOTER AREA STARTS     --}}
+        <section class="footer-section">
+
+        </section>
+        {{--   FOOTER AREA ENDS      --}}
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!--====== jquery js ======-->
     <script src="{{ asset('assets/js/vendor/modernizr-3.6.0.min.js') }}"></script>
@@ -141,6 +285,20 @@
             let i, tabContent, tabLinks, tabOption;
             tabContent = document.getElementsByClassName('tab-content');
             tabLinks = document.getElementsByClassName('side-menu-item');
+            tabOption = document.getElementById(option);
+            for(i = 0; i < tabContent.length; i++){
+                tabContent[i].style.display = 'none';
+                tabLinks[i].className = tabLinks[i].className.replace('active-menu',"");
+            }
+            tabOption.className = tabOption.className.replace('d-none','');
+            tabOption.style.display = 'block';
+            event.target.className += " active-menu";
+        }
+
+        function showTab2(event,option){
+            let i, tabContent, tabLinks, tabOption;
+            tabContent = document.getElementsByClassName('tab-content2');
+            tabLinks = document.getElementsByClassName('side-menu-item2');
             tabOption = document.getElementById(option);
             for(i = 0; i < tabContent.length; i++){
                 tabContent[i].style.display = 'none';
